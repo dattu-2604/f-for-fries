@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<style type="text/css">
+		.button {
+			  color: black;
+			  padding: 16px 32px;
+			  text-align: center;
+			  display: inline-block;
+			  font-size: 14px;
+			  cursor: pointer;
+			  border-radius: 14px;
+		}
+	</style>
+</head>
+<body bgcolor="black" text='white'>
+<font face='Times New Roman' size=5>
+<center>
+Registration Form
+<form name='reg'>
+	<Table>
+		<tr>
+			<td><label>Enter your name : </label></td>
+			<td><input type="text" name="name"></td>
+		</tr>	
+		<tr>
+			<td><label>Enter your DOB : </label></td>
+			<td><input type="date" name='dob' id="dob"></td>
+		</tr>
+		<tr>
+			<td><label>Enter your email address : </label></td>
+			<td><input type='text' name='mail'></td>
+		</tr>
+		<tr>
+			<td><label>Enter password : </label></td>
+			<td><input type='password' name='pass' id='pass'></td>
+		</tr>
+		<tr>
+			<td><label>Confirm password : </label></td>
+			<td><input type='password' name='cpass' id='cpass'></td>
+		</tr>
+	</Table>
+	<button class='button' type='submit'>Submit</button>
+	<button class='button' type='reset'>Reset</button>
+</form>
+</center>
+</font>
+</body>
+</html>
